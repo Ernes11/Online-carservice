@@ -1,0 +1,50 @@
+.info {
+  &__box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 32px;
+  }
+
+  & img {
+    margin-bottom: 11px;
+    margin-right: 24px;
+    padding-left: 35px;
+ 
+    
+  }
+
+  .info-stepline {
+    margin-top: -9px;
+    padding-left: 35px;
+  }
+
+  &__text-subtitle {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: -0.03em;
+    color: $dark;
+  }
+
+  &__text-desc {
+    width: 336px;
+    height: 96px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 175%;
+    color: $dark;
+    opacity: 0.6;
+    padding-top: 8px;
+  }
+
+  &__text-more {
+    display: flex;
+    align-items: center;
+    margin-left: 62px;
+
+    & img {
+      margin-left: 21px;
+      margin-top: 53px;
+    }
+  }
+}

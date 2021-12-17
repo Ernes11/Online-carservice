@@ -1,0 +1,37 @@
+.expert {
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding-left: 60px;
+
+  &__left-title {
+    width: 620px;
+    height: 201px;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 140%;
+    letter-spacing: -0.03em;
+    color: $dark;
+    margin-bottom: 16px;
+  }
+  &__left-subtitle {
+    width: 614px;
+    height: 72px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.03em;
+    color: $dark;
+    opacity: 0.6;
+    margin-bottom: 48px;
+  }
+
+  &__right {
+    margin-left: 93px;
+
+    img {
+      width: 573px;
+      height: 773px;
+    }
+  }
+}

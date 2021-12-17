@@ -1,0 +1,56 @@
+.aboutservice {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-top: 80px;
+
+  &__image {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+  }
+
+  & img {
+    width: 818px;
+    height: 550px;
+  }
+
+  &__text {
+    box-sizing: border-box;
+    width: 733px;
+    height: 550px;
+    background: $dark;
+    padding-left: 96px;
+    margin-left: 667px;
+    padding-top: 60px;
+  }
+
+  &__title {
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 84px;
+    letter-spacing: -0.03em;
+    color: $lightgrey;
+  }
+  &__descr {
+    width: 541px;
+    height: 96px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 175%;
+    color: $lightgrey;
+    margin-top: 16px;
+    margin-bottom: 48px;
+  }
+
+  .btn--primary {
+    background: $primary;
+    margin-left: 0px;
+    transition: all 0.3s ease-out;
+    &:hover {
+      background-color: $light;
+      color: $dark;
+    }
+  }
+}

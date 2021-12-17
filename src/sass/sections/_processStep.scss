@@ -1,0 +1,38 @@
+.processStep {
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+  &__text {
+    box-sizing: border-box;
+    background: $light;
+    margin-left: 40px;
+  }
+
+  &__title {
+    width: 547px;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 140%;
+    letter-spacing: -0.03em;
+    color: $dark;
+  }
+  &__descr {
+    width: 512px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 175%;
+    color: $dark;
+    opacity: 0.6;
+  }
+
+  .btn--primary {
+    background: $primary;
+    margin-left: 0px;
+    transition: all 0.3s ease-out;
+    &:hover {
+      background-color: $dark;
+      color: $light;
+    }
+  }
+}

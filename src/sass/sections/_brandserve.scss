@@ -1,0 +1,28 @@
+.brandserve {
+  justify-content: center;
+  text-align: center;
+  padding-top: 128px;
+  padding-bottom: 70px;
+  background: #fafafa;
+
+  &__title {
+    padding-bottom: 11px;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 140%;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: $dark;
+  }
+
+  &__row-1 {
+    img {
+      margin-left: 100px;
+    }
+  }
+  &__row-2 {
+    img {
+      margin-left: 100px;
+    }
+  }
+}
