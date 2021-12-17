@@ -1,0 +1,24 @@
+.quote__title {
+  
+  font-weight: 800;
+  font-size: 58px;
+  line-height: 76px;
+  letter-spacing: -0.03em;
+  max-width: 583px;
+  width: 100%;
+  flex-direction: left;
+  margin-bottom: 48px;
+
+}
+
+.getquote {
+  display: flex;
+  justify-content: center;
+  background: $steelgrey;
+  padding-top: 128px;
+  padding-bottom: 40px;
+
+  &__item {
+    margin-right: 100px;
+  }
+}

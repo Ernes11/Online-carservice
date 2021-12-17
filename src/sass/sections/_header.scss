@@ -1,0 +1,123 @@
+.home__header {
+  max-width: 1200px;
+  width: 100%;
+  color: $dark;
+  padding: 80px 0;
+
+  &-row {
+    align-items: center;
+  }
+  .row {
+    display: flex;
+    margin-right: -15px;
+    margin-bottom: -15px;
+    margin-left: -15px;
+    flex-wrap: wrap;
+    align-content: stretch;
+  }
+  .col {
+    margin-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 1;
+    max-width: 50%;
+    flex-basis: 50%;
+    position: relative;
+
+    .home__header-text-wrapper {
+      max-width: 540px;
+      padding-top: 0;
+      padding-bottom: 60px;
+    }
+  }
+  .top-line {
+    width: 624px;
+    height: 252px;
+    margin-left: 60px;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 84px;
+    letter-spacing: 1.4px;
+  }
+  &-time {
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+  }
+  &-time-text {
+    margin-left: 13px;
+  }
+  .headline {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: $grey;
+  }
+  .description {
+    color: $dark;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 175%;
+  }
+
+  .quick-service-img {
+    display: flex;
+    align-items: center;
+    max-width: 281.64px;
+    width: 100%;
+    background: linear-gradient(138.85deg, #ffffff -38.72%, #ffffff 153.95%);
+    border: 12px solid rgba(225, 225, 225, 0.43);
+    box-shadow: 0px 28px 118px rgba(109, 108, 115, 0.12);
+    border-radius: 59px;
+    padding-top: 15px;
+    padding-bottom: 17px;
+    padding-left: 13px;
+    position: absolute;
+    left: 151px;
+    top: 63px;
+    transition: all 0.3s ease-in-out;
+
+    &:hover{
+      background-color: $dark;
+      color: white;
+    }
+
+    .quick-service-desc {
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 36px;
+      letter-spacing: -0.03em;
+      color: $dark;
+      padding-left: 14px;
+    }
+  }
+  .home__header-img {
+    margin-left: 103px;
+  }
+
+  .header__rate {
+    display: flex;
+    align-items: center;
+    max-width: 281.64px;
+    width: 100%;
+    background: linear-gradient(138.85deg, #ffffff -38.72%, #ffffff 153.95%);
+    border: 12px solid rgba(225, 225, 225, 0.43);
+    box-shadow: 0px 28px 118px rgba(109, 108, 115, 0.12);
+    border-radius: 59px;
+    padding-top: 15px;
+    padding-bottom: 17px;
+    padding-left: 13px;
+    position: absolute;
+    left: 560px;
+    top: 505px;
+
+    &-subtitle {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      color: $dark;
+      opacity: 0.7;
+      padding-right: 25px;
+    }
+  }
+}

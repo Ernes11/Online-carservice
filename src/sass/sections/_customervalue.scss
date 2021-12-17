@@ -1,0 +1,55 @@
+.customervalue {
+  padding-top: 100px;
+  background: $lightgrey;
+
+  &__title {
+    width: 861px;
+    height: 152px;
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 76px;
+    text-align: center;
+    margin-left: 270px;
+    margin-bottom: 60px;
+    letter-spacing: -0.03em;
+    color: #1e1b1b;
+  }
+  &__items {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__card {
+    max-width: 290px;
+    width: 100%;
+    box-sizing: border-box;
+    background: $light;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 44px;
+    padding-right: 44px;
+    transition: all 0.3 ease-in-out;
+
+    &:hover {
+      background: #ffdace;
+    }
+  }
+  &__subtitle {
+    width: 100%;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: $dark;
+  }
+  &__descr {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 175%;
+    text-align: center;
+    color: #232536;
+    opacity: 0.6;
+  }
+}

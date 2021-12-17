@@ -1,0 +1,105 @@
+.footer {
+  width: 100%;
+  &__container{
+    
+  max-width: 1400px;
+  width: 100%;
+  margin: 0px auto;
+  } 
+  &-col {
+    display: flex;
+    justify-content: space-between;
+    background: $dark;
+    padding-top: 128px;
+    padding-left: 120px;
+
+    .col-left {
+      .footer-title {
+        max-width: 463px;
+        width: 100%;
+        color: $light;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 140%;
+        letter-spacing: -0.03em;
+      }
+
+      .footer-items img {
+        margin-top: 64px;
+        margin-bottom: 204px;
+        padding-right: 23px;
+
+        &-items img:last-child {
+          padding-right: 0px;
+        }
+      }
+    }
+    .col-right {
+      margin-right: 123px;
+      color: $light;
+
+      &-1 {
+        padding-bottom: 32px;
+      }
+
+      .footer-subtitle {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 175%;
+        color: $light;
+        opacity: 0.6;
+        padding-bottom: 8px;
+      }
+      .footer-descr {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: -0.03em;
+      }
+    }
+  }
+  .row {
+    display: flex;
+    justify-content: space-between;
+    background: $dark;
+    padding-top: 65px;
+    padding-bottom: 64px;
+
+    .footer-logo {
+      padding-left: 120px;
+    }
+
+    .footer-links {
+      display: flex;
+      justify-content: space-between;
+      color: $light;
+      text-decoration: none;
+      list-style: none;
+
+      & li {
+        margin-right: 32px;
+        transition: width 2s linear 0.5s;
+
+        
+
+        & li:last-child {
+          margin-right: 0px;
+        }
+
+        &:hover{
+            border-bottom: 2px solid orange;
+            transition: all 0.2s ease-out;
+            align-items: center;
+        }
+      }
+    }
+
+    .footer-copyright {
+      padding-right: 100px;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 28px;
+      color: $grey;
+    }
+  }
+}

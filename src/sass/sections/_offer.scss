@@ -1,0 +1,159 @@
+.offer {
+  padding-top: 120px;
+  background: $lightgrey;
+  position: relative;
+
+  &__text {
+    justify-content: center;
+    text-align: center;
+  }
+
+  &__title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: $dark;
+  }
+  &__subtitle {
+    width: 858px;
+    height: 152px;
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 76px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: $dark;
+    margin-left: 271px;
+  }
+
+  &__row-1 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 64px;
+  }
+
+  &__row-2 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 5px;
+    padding-bottom: 128px;
+  }
+
+  &__text-more {
+    float: right;
+    display: flex;
+    position: absolute;
+    top: 93%;
+    left: 76%;
+  }
+}
+
+.diagnostic__box {
+  justify-content: center;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: $light;
+  padding: 90px;
+  transition-property: width;
+  transition-duration: 7s;
+  transition-timing-function: linear;
+  transition-delay: 1s;
+
+  &:hover {
+    background: $primary;
+    width: 300px;
+  }
+
+  &__subtitle {
+    padding-top: 16px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: $dark;
+  }
+}
+
+.engine__box {
+  justify-content: center;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: white;
+  padding: 90px;
+  transition-property: width;
+  transition-duration: 7s;
+  transition-timing-function: linear;
+  transition-delay: 1s;
+  &:hover {
+    background: $primary;
+    width: 300px;
+  }
+
+  &__subtitle {
+    padding-top: 19px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: $dark;
+  }
+}
+.batteries__box {
+  justify-content: center;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: white;
+  padding: 90px;
+  transition-property: width;
+  transition-duration: 7s;
+  transition-timing-function: linear;
+  transition-delay: 1s;
+  &:hover {
+    background: $primary;
+    width: 300px;
+  }
+
+  &__subtitle {
+    padding-top: 16.75px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: $dark;
+  }
+}
+
+.oilfilter__box {
+  justify-content: center;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: white;
+  padding: 90px;
+  transition-property: width;
+  transition-duration: 7s;
+  transition-timing-function: linear;
+  transition-delay: 1s;
+  &:hover {
+    background: $primary;
+    width: 300px;
+  }
+
+  &__subtitle {
+    padding-top: 14px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    color: $dark;
+  }
+}

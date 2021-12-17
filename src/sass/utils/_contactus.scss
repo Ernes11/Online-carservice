@@ -1,0 +1,20 @@
+.contact__form {
+  .form-control {
+    width: 624px;
+    height: 72px;
+    background: $light;
+    border-radius: 2px;
+    border: none;
+    box-shadow: 0px 28px 118px rgba(109, 108, 115, 0.12);
+    margin-bottom: 4px;
+  }
+
+  input,
+  placeholder {
+    padding-left: 40px;
+  }
+  textarea.form-control {
+    height: 100%;
+    padding-left: 40px;
+  }
+}
